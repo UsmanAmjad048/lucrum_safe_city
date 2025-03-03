@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include lucrum_safe_city *.css
+recursive-include lucrum_safe_city *.csv
+recursive-include lucrum_safe_city *.html
+recursive-include lucrum_safe_city *.ico
+recursive-include lucrum_safe_city *.js
+recursive-include lucrum_safe_city *.json
+recursive-include lucrum_safe_city *.md
+recursive-include lucrum_safe_city *.png
+recursive-include lucrum_safe_city *.py
+recursive-include lucrum_safe_city *.svg
+recursive-include lucrum_safe_city *.txt
+recursive-exclude lucrum_safe_city *.pyc
