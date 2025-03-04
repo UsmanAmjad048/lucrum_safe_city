@@ -146,9 +146,9 @@ app_license = "MIT"
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Ducky apps
-# override_doctype_dashboards = {
-#	"Task": "lucrum_safe_city.task.get_dashboard_data"
-# }
+override_doctype_dashboards = {
+	"Employee": "lucrum_safe_city.dashboard.employee_dashboard_custom.get_dashboard_data"
+}
 
 # exempt linked doctypes from being automatically cancelled
 #
